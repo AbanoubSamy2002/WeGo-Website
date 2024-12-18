@@ -13,50 +13,57 @@
             <body>
 
         <!-- navbar -->
-            <nav>
-                <nav class="navbar navbar-dark bg-dark fixed-top">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                        <div class="offcanvas-header">
-                          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                              </a>
-                              <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                  <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                          <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                          </form>
-                        </div>
-                      </div>
+        <nav>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-nav" src="images/roxana-wego-logo.png(1).png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                  </nav>
-            </nav>
-            
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <button>
+                                    <span class="box">
+                                        Hover!
+                                    </span>
+                                </button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                </nav>
+        </nav>
+        
             <main>
         <!-- testimonials -->
         <section id="testimonials" class="page-1">
@@ -71,184 +78,138 @@
             </section>
         
         <!-- icon -->
-            <section class="page-2 px-5">
-            <div class="container  px-5">
-            <div class="" id="page-2-height">
-            <div class="row  px-5">
-            <div class="  col-lg-3 text-center py-5 page-2-div-1">
-            <img class="page-2-img-1" src="images/look-no-further.png" alt="....">
-            <h6>Top travel app in Egypt
-            </h6>
-            <p>Highly rated in App Store & Google <br> Play
-            </p>
+        <section class="page-2 py-5">
+            <div class="container px-5 py-5">
+              <div class="row px-5" id="page-2-height">
+                <!-- item-1-->
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-4 page-2-div-1">
+                  <img class="page-2-img-1" src="images/look-no-further.png" alt="....">
+                  <h6>Top travel app in Egypt</h6>
+                  <p>Highly rated in App Store & Google <br> Play</p>
+                </div>
+                <!-- item-2-->
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-4 page-2-div-1">
+                  <img class="page-2-img-1" src="images/shop-with-confidence.png" alt="....">
+                  <h6>Shop with confidence</h6>
+                  <p>No hidden fees, taxes or other <br> nasty surprises</p>
+                </div>
+                <!-- item-3-->
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-4 page-2-div-1">
+                  <img class="page-2-img-1" src="images/pay-the-way-you-want.png" alt="....">
+                  <h6>Pay the way you want</h6>
+                  <p>See only sellers who support your <br> preferred methods</p>
+                </div>
+                <!-- item-4-->
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-4 page-2-div-1">
+                  <img class="page-2-img-1" src="images/instant-booking.png" alt="....">
+                  <h6>Instant booking</h6>
+                  <p>For selected sellers, book with just <br> a couple of clicks</p>
+                </div>
+              </div>
             </div>
-            <div class=" col-lg-3   text-center py-5 page-2-div-1">
-            <img class="page-2-img-1" src="images/shop-with-confidence.png" alt="....">
-            <h6>Shop with confidence
-            </h6>
-            <p>No hidden fees, taxes or other <br> nasty surprises
-            </p>
-            </div>
-            <div class="  col-lg-3  text-center py-5 page-2-div-1">
-            <img class="page-2-img-1" src="images/pay-the-way-you-want.png" alt="....">
-            <h6>Pay the way you want
-
-            </h6>
-            <p>See only sellers who support your <br> preferred methods
-
-            </p>
-            </div>
-            <div class="  col-lg-3  text-center py-5 page-2-div-1">
-            <img class="page-2-img-1" src="images/instant-booking.png" alt="....">
-            <h6>Instant booking
-
-            </h6>
-            <p>For selected sellers, book with just <br> a couple of clicks
-            </p>
-            </div>
-            </div>
-            </div>
-            </div>
-            </section>
-            
+        </section>
+        
         <!-- stories -->
             <section>
-
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner container px-5 position-relative overflow-hidden">
+            <div class="carousel-inner container  position-relative overflow-hidden">
             <div class="px-5 mb-3">
             <h2 class="fw-bold fs-4">
             Stories
 
             </h2>
             </div>
-            <div class="carousel-item active px-5">
-            <div class="row"> 
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/the-gilded-madrid-enter-the-opulent-world-of-the-best-luxury-hotels/?_gl=1%2Admxvmc%2A_gcl_aw%2AR0NMLjE3MzE5NjM3NDYuQ2owS0NRaUE2T3U1QmhDckFSSXNBUG9UeHJBaWVTSEVhNGNrQWtoUVdGdnNIMm1kR196WU9GOHRwcF9BUkI0NHZlZXhEY0k0X3JzdHJGUWFBcFNlRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMTk2Mzc0MC4xMi4xLjE3MzE5NjU1NjIuNDMuMC4xMTMxMTcxNTU5" target="_blank">
-            <img class="page-3-img" src="images/لقطة الشاشة 2024-11-19 010459.png" alt="">
-            </a>
-            <h4 class="pt-3 pb-4">
-            The Gilded Madrid: Enter the Opulent <br> World  of the Best Luxury Hotels
-            </h4>
-            <div class="ps-3 pt-2">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/?p=252871&_gl=1*15ixw5m*_gcl_aw*R0NMLjE3MzIxOTg5MzQuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9LTjBlTVV6ZDBJVEFuTnNRV3ZBSDV6ck9NREI4bGNGY3JKNHVsdXhoLTZmVkJFY0VEMXV6Y2FBc0stRUFMd193Y0I.*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczMjE5ODkzMy4xNi4wLjE3MzIxOTg5MzMuNjAuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_1.png" alt="">
-            </a>
-            <h4 class="pt-3 pb-4">
-            The Great British Outdoors: Yours to <br> Discover This Autumn
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/discover-oman-the-gulfs-go-to-weekend-retreat/?_gl=1%2Auhpqa9%2A_gcl_aw%2AR0NMLjE3MzIxOTg5MzQuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9LTjBlTVV6ZDBJVEFuTnNRV3ZBSDV6ck9NREI4bGNGY3JKNHVsdXhoLTZmVkJFY0VEMXV6Y2FBc0stRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMjE5ODkzMy4xNi4wLjE3MzIxOTg5MzMuNjAuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_2.png" alt="">
-            </a>
-            <h4 class="pt-3 pb-4">
-            Discover Oman: The Gulf’s Go-To Weekend <br> Retreat
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="carousel-item px-5">
-            <div class="row"> 
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/?p=252879&_gl=1*vj2ptg*_gcl_aw*R0NMLjE3MzIxOTg5MzQuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9LTjBlTVV6ZDBJVEFuTnNRV3ZBSDV6ck9NREI4bGNGY3JKNHVsdXhoLTZmVkJFY0VEMXV6Y2FBc0stRUFMd193Y0I.*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczMjE5ODkzMy4xNi4wLjE3MzIxOTg5MzMuNjAuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_3.png" alt="">
-            </a>
-            <h4 class="pt-3 pb-4 ">
-            Coldplay in Abu Dhabi: Your Guide to the <br> Best Hotels for the 2025 Concert
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/gitex/?_gl=1%2Anblfch%2A_gcl_aw%2AR0NMLjE3MzIxOTg5MzQuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9LTjBlTVV6ZDBJVEFuTnNRV3ZBSDV6ck9NREI4bGNGY3JKNHVsdXhoLTZmVkJFY0VEMXV6Y2FBc0stRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMjE5ODkzMy4xNi4wLjE3MzIxOTg5MzMuNjAuMC4xOTg2NTAyNTE4https://blog.wego.com/the-gilded-madrid-enter-the-opulent-world-of-the-best-luxury-hotels/?_gl=1%2Admxvmc%2A_gcl_aw%2AR0NMLjE3MzE5NjM3NDYuQ2owS0NRaUE2T3U1QmhDckFSSXNBUG9UeHJBaWVTSEVhNGNrQWtoUVdGdnNIMm1kR196WU9GOHRwcF9BUkI0NHZlZXhEY0k0X3JzdHJGUWFBcFNlRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMTk2Mzc0MC4xMi4xLjE3MzE5NjU1NjIuNDMuMC4xMTMxMTcxNTU5" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_4.png" alt="">
-            </a>
-            <h4 class="pt-3 pb-4">
-            GITEX 2024: What to Expect From Dubai’s <br> Biggest Tech Event of the Year
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/golden-visas-announced-for-outstanding-teachers-in-dubais-private-schools-news/?_gl=1%2Agd6i0u%2A_gcl_aw%2AR0NMLjE3MzIxOTg5MzQuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9LTjBlTVV6ZDBJVEFuTnNRV3ZBSDV6ck9NREI4bGNGY3JKNHVsdXhoLTZmVkJFY0VEMXV6Y2FBc0stRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMjE5ODkzMy4xNi4wLjE3MzIxOTg5MzMuNjAuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_5.png" alt="">
-            </a>
-            <h4 class="pt-3 pb-4">
-            Golden Visas Announced for Outstanding <br> Teachers in Dubai’s Private Schools
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div class="carousel-item px-5">
-            <div class="row"> 
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/uae-travelers-to-enjoy-faster-us-entry-with-global-entry-news/?_gl=1%2A8owgor%2A_gcl_aw%2AR0NMLjE3MzIxOTg5MzQuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9LTjBlTVV6ZDBJVEFuTnNRV3ZBSDV6ck9NREI4bGNGY3JKNHVsdXhoLTZmVkJFY0VEMXV6Y2FBc0stRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMjE5ODkzMy4xNi4wLjE3MzIxOTg5MzMuNjAuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_6.png" alt="...">
-            </a>
-            <h4 class="pt-3 pb-4">
-            UAE Travelers to Enjoy Faster US Access <br> with Global Entry Program
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/how-to-get-fazaa-card-for-expats/?_gl=1%2A121nb05%2A_gcl_aw%2AR0NMLjE3MzIxOTk5NTIuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9KUkJ6ekVFY0piNDBuTTUtcnJYMEFvc2h5bnV0ckozZE5oZ2JId0p2ZjlhZzhmeklTRHpQd2FBdk1WRUFMd193Y0I.%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczMjE5ODkzMy4xNi4xLjE3MzIxOTk5NTEuNTMuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_7.png" alt="...">
-            </a>
-            <h4 class="pt-3 pb-5">
-            How to Get Fazaa Card for Expats?
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            <div class="col-12 col-lg-4 bg-white" id="page-3-box-shado">
-            <a href="https://blog.wego.com/?p=45540&_gl=1*1bwzw6o*_gcl_aw*R0NMLjE3MzIxOTk5NTIuQ2owS0NRaUEwZnU1QmhEUUFSSXNBTVhVQk9KUkJ6ekVFY0piNDBuTTUtcnJYMEFvc2h5bnV0ckozZE5oZ2JId0p2ZjlhZzhmeklTRHpQd2FBdk1WRUFMd193Y0I.*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczMjE5ODkzMy4xNi4xLjE3MzIxOTk5NTEuNTMuMC4xOTg2NTAyNTE4" target="_blank">
-            <img class="page-3-img" src="images/Screenshot_9.png" alt="">
-            </a>
-            <h4 class="pb-3">
-            National Day of Saudi Arabia 2025: Learn <br> More About the Important Holiday and Celebration
-            </h4>
-            <div class="ps-3 pt-1">
-            <img class="page-3-img-2" src="images/roxana-wego-logo (1).png" alt="...."> <span class="page-3-span ps-1"> Wego Travel Blog</span>
-            </div>
-            </div>
-            </div>
-            </div>
+            <div class="  container py-5 position-relative">
+                <button class="carousel-btn carousel-btn-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn carousel-btn-next"><i class="fas fa-chevron-right"></i></button>
+              
+                
+                <div class="cards-container">
+                  <!-- item-1-->
+                  <div class="wego-card">
+                    <a href="https://blog.wego.com/dubai-christmas-markets/?_gl=1%2A1vvh0oi%2A_gcl_aw%2AR0NMLjE3MzQ1MzExNzkuQ2p3S0NBaUFnb3E3QmhCeEVpd0FWY1cwTE40Xzl0MzZpOWw0bzEwaFRIRVliU3UtQ2QxdlBRZF9lMXg0SmRMVi1OcnA4OUgtOUlvajN4b0NOdmtRQXZEX0J3RQ..%2A_gcl_au%2AMTMzOTEyMTA1NC4xNzMxNjE5MjIy%2A_ga%2AMzI1NjU4NjY3LjE3MzE2MTkyMjM.%2A_ga_VG6EGRH8EN%2AMTczNDUzNTU0My40MS4wLjE3MzQ1MzU1NDMuNjAuMC4xODY1OTMwOTQw" target="_blank">
+                        <img src="images/dubai-christmas-markets-featured-480x320.webp" alt="Hotel Image">
+                    </a>
+                   
+                    <div class="wego-card-content">
+                      <h5 class="wego-card-title">Dubai Christmas Markets 2024: Must-Visit Festive Markets in Dubai This Year</h5>
+                      <br> <br>
+                      <div>
+                        <div><span> <img id="one" class="MfuMfA37mrcuHD1kdFaf" src="images/roxana-wego-logo (1).png" alt=""></span> <span>Wego Travel Blog</span></div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!-- item-2-->
+                  <div class="wego-card">
+                    <a href="https://blog.wego.com/?p=254943&_gl=1*xneau2*_gcl_aw*R0NMLjE3MzQ1MzExNzkuQ2p3S0NBaUFnb3E3QmhCeEVpd0FWY1cwTE40Xzl0MzZpOWw0bzEwaFRIRVliU3UtQ2QxdlBRZF9lMXg0SmRMVi1OcnA4OUgtOUlvajN4b0NOdmtRQXZEX0J3RQ..*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczNDUzNTU0My40MS4wLjE3MzQ1MzU1NDMuNjAuMC4xODY1OTMwOTQw" target="_blank">
+                        <img src="images/Screenshot_15.png" alt="Hotel Image">
+                    </a>
+                   
+                    <div class="wego-card-content">
+                      <h5 class="wego-card-title">Gulf Air Student Discount: How to Get Free Extra Baggage for Students?</h5>
+                      <br> <br>
+                      <div>
+                        <div><span> <img id="one" class="MfuMfA37mrcuHD1kdFaf" src="images/roxana-wego-logo (1).png" alt=""></span> <span>Wego Travel Blog</span></div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!-- item-3-->
+                  <div class="wego-card">
+                    <a href="https://blog.wego.com/?p=255776&_gl=1*13g2i55*_gcl_aw*R0NMLjE3MzQ1MzExNzkuQ2p3S0NBaUFnb3E3QmhCeEVpd0FWY1cwTE40Xzl0MzZpOWw0bzEwaFRIRVliU3UtQ2QxdlBRZF9lMXg0SmRMVi1OcnA4OUgtOUlvajN4b0NOdmtRQXZEX0J3RQ..*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczNDUzNTU0My40MS4wLjE3MzQ1MzU1NDMuNjAuMC4xODY1OTMwOTQw" target="_blank">
+                        <img src="images/Screenshot_19.png" alt="Hotel Image">
+                    </a>
+                   
+                    <div class="wego-card-content">
+                      <h5 class="wego-card-title">Qatar Airways First Class 2024: What to Know Before You Book Your Flight</h5>
+                      <br> <br>
+                      <div>
+                        <div><span> <img id="one" class="MfuMfA37mrcuHD1kdFaf" src="images/roxana-wego-logo (1).png" alt=""></span> <span>Wego Travel Blog</span></div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--item-4-->
+                  <div class="wego-card">
+                    <a href="https://blog.wego.com/?p=256083&_gl=1*1bla5y4*_gcl_aw*R0NMLjE3MzQ1MzExNzkuQ2p3S0NBaUFnb3E3QmhCeEVpd0FWY1cwTE40Xzl0MzZpOWw0bzEwaFRIRVliU3UtQ2QxdlBRZF9lMXg0SmRMVi1OcnA4OUgtOUlvajN4b0NOdmtRQXZEX0J3RQ..*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczNDUzNTU0My40MS4wLjE3MzQ1MzU1NDMuNjAuMC4xODY1OTMwOTQw" target="_blank">
+                        <img src="images/Screenshot_20.png" alt="Hotel Image">
+                    </a>
+                   
+                    <div class="wego-card-content">
+                      <h5 class="wego-card-title">Qatar Airways First Class 2024: What to Know Before You Book Your Flight</h5>
+                      <br> <br>
+                      <div>
+                        <div><span> <img id="one" class="MfuMfA37mrcuHD1kdFaf" src="images/roxana-wego-logo (1).png" alt=""></span> <span>Wego Travel Blog</span></div>
+                      </div>
+                    </div>
+                    
+                  </div>
 
-            <button id="page-3-buttom-3" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <i class="fa-solid fa-arrow-left fs-4" id="page-3-icon-5"></i>
-            <span class="visually-hidden ">Previous</span>
-            </button>
-            <button id="page-3-buttom"  class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <i class="fa-solid fa-arrow-right fs-4" id="page-3-icon-4"></i>
-            <span class="visually-hidden">Next</span>
-            </button>
+
+                  <div class="wego-card">
+                    <a href="https://blog.wego.com/?p=255650&_gl=1*1isbis3*_gcl_aw*R0NMLjE3MzQ1MzExNzkuQ2p3S0NBaUFnb3E3QmhCeEVpd0FWY1cwTE40Xzl0MzZpOWw0bzEwaFRIRVliU3UtQ2QxdlBRZF9lMXg0SmRMVi1OcnA4OUgtOUlvajN4b0NOdmtRQXZEX0J3RQ..*_gcl_au*MTMzOTEyMTA1NC4xNzMxNjE5MjIy*_ga*MzI1NjU4NjY3LjE3MzE2MTkyMjM.*_ga_VG6EGRH8EN*MTczNDUzNTU0My40MS4wLjE3MzQ1MzU1NDMuNjAuMC4xODY1OTMwOTQw" target="_blank">
+                        <img src="images/Screenshot_22.png" alt="Hotel Image">
+                    </a>
+                   
+                    <div class="wego-card-content">
+                      <h5 class="wego-card-title">Exploring Affordable Luxury: Which Airlines Offer the Cheapest Business Class Flights From the Saudi Arabia?</h5>
+                      <br> <br>
+                      <div>
+                        <div><span> <img id="one" class="MfuMfA37mrcuHD1kdFaf" src="images/roxana-wego-logo (1).png" alt=""></span> <span>Wego Travel Blog</span></div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
             </div>
 
             </div>
             </section>
 
         <!-- Trip Ideas from Egypt-->
-            <section id="trip" class="py-5">
+            <section id="trip" >
             <div class="container-fluid container-lg py-5 px-lg-5 overflow-hidden">
                 <div class="px-lg-3 mx-lg-5">
                     <div class="head mb-5">
@@ -1709,8 +1670,7 @@
         </section>
 
 
-
-
+     
             </main>
             <script src="js/bootstrap.bundle.min.js"></script>
             <script src="js/index.js"></script>

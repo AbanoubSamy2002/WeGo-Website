@@ -25,3 +25,32 @@ links.forEach(link => {
         this.classList.add('active');
     });
 });
+
+const navbar = document.querySelector('.navbar');
+
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) { 
+    navbar.classList.add('visible'); 
+  } else {
+    navbar.classList.remove('visible'); 
+  }
+});
+
+
+const container = document.querySelector('.cards-container');
+const prevButton = document.querySelector('.carousel-btn-prev');
+const nextButton = document.querySelector('.carousel-btn-next');
+
+
+const cardWidth = document.querySelector('.wego-card').offsetWidth + 15; // عرض البطاقة + الهامش
+
+
+nextButton.addEventListener('click', () => {
+  container.scrollBy({ left: cardWidth, behavior: 'smooth' });
+});
+
+
+prevButton.addEventListener('click', () => {
+  container.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+});
