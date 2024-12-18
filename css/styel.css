@@ -836,3 +836,10 @@
 
 
 
+@media (max-width: 768px) {
+    .wraper{
+        height: 70vh;
+        border-bottom-left-radius: 6%;
+        border-bottom-right-radius: 6%;     
+    }
+}
