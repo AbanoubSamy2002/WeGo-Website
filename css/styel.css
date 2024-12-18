@@ -756,18 +756,18 @@
 
     #page-4-bottom-1{
         color: var(--Fourth) !important;
-        padding-right: 80px;
         position: absolute;
         top: 50px;
-        right: -40px;
+            
         
     }
     #page-4-bottom{
         color: var(--Fourth) !important;
-        padding-right: 80px;
         position: absolute;
         top: 50px;
-        left: -40px;
+        padding-right: 155px;
+        transform: translateX(-5px);
+        
     }
 
     #page-4-btn{
