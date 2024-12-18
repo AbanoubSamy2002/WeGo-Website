@@ -790,3 +790,39 @@
         height: 16px;
         width: 16px;
     }
+
+    .slide-btn {
+        position: absolute;
+        top: 50%; 
+        transform: translateY(-50%);
+        z-index: 10;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .prev-btn {
+        left: 10px; 
+      }
+      
+      .next-btn {
+        right: 10px; 
+      }
+      
+      .slide-btn i {
+        font-size: 16px;
+        color: #000;
+      }
+      
+      .card img {
+        height: 200px; 
+      }
+      
+      .carousel-item {
+        position: relative; 
+      }

@@ -54,3 +54,26 @@ nextButton.addEventListener('click', () => {
 prevButton.addEventListener('click', () => {
   container.scrollBy({ left: -cardWidth, behavior: 'smooth' });
 });
+
+
+const carousel = document.querySelector('#carouselExample');
+const prevBtn = document.querySelector('#prevBtn');
+const nextBtn = document.querySelector('#nextBtn');
+
+
+prevBtn.addEventListener('click', () => {
+  const activeSlide = carousel.querySelector('.carousel-item.active');
+  const prevSlide = activeSlide.previousElementSibling || carousel.querySelector('.carousel-item:last-child');
+  
+  activeSlide.classList.remove('active');
+  prevSlide.classList.add('active');
+});
+
+
+nextBtn.addEventListener('click', () => {
+  const activeSlide = carousel.querySelector('.carousel-item.active');
+  const nextSlide = activeSlide.nextElementSibling || carousel.querySelector('.carousel-item:first-child');
+  
+  activeSlide.classList.remove('active');
+  nextSlide.classList.add('active');
+});
