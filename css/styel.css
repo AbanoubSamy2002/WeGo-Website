@@ -643,17 +643,15 @@
             border-bottom-right-radius: 6%;     
         }
 
-        #page-4-btn-1{
-
-            display: none;
-            
-
-        }
-
-        #page-4-btn{
+        #nextBtn{
             display: none;
         }
+        #prevBtn{
+            display: none;
+        }
+
     }
+
 
     .navbar {
         opacity: 0;
@@ -826,3 +824,38 @@
       .carousel-item {
         position: relative; 
       }
+
+     
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: none;
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    pointer-events: none;
+}
