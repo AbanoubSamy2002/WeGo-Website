@@ -5,13 +5,13 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* الوضع الداكن (Dark Mode) */
+  
   body.dark-mode {
     background-color: #121212;
     color: #ffffff;
   }
 
-  /* تصميم الزر */
+  
   .dark-mode-btn {
     position: fixed;
     top: 20px;
@@ -26,7 +26,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  /* تصميم الزر عند الوضع الداكن */
+  
   body.dark-mode .dark-mode-btn {
     background-color: #ffffff;
     color: #000000;
@@ -43,7 +43,7 @@ body {
     color: inherit;
   }
   
-  /* Main Circle */
+
   .main-circle {
     width: 40rem;
     height: 40rem;
@@ -57,7 +57,7 @@ body {
     transform: translate(-50%, -70%)
   }
   
-  /* Phone */
+
   .phone {
     position: relative;
     z-index: 2;
@@ -78,9 +78,9 @@ body {
   
   
   
-  /* Top */
+  
   .menu {
-  /*   background-color: blue; */
+  
     font-size: 80%;
     opacity: .4;
     padding: .8rem 1.8rem;
@@ -120,7 +120,7 @@ body {
     margin: .12rem .5rem;
   }
   
-  /* Middle */
+  
   .content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -223,11 +223,11 @@ body {
   .time {
     color: black;
   }
-  /* -------- Switch Styles ------------*/
+  
   [type="checkbox"] {
     display: none;
   }
-  /* Toggle */
+
   [type="checkbox"]:checked + .app .toggle {
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
@@ -244,12 +244,12 @@ body {
     opacity: 1;
     color: white;
   }
-  /* App */
+
   [type="checkbox"]:checked + .app .body {
     background-color: #26242E;
     color: white;
   }
-  /* Circle */
+
   [type="checkbox"]:checked + .app .crescent {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -287,7 +287,7 @@ body {
   }
   
   .menu {
-  /*   background-color: blue; */
+ 
     font-size: 80%;
     opacity: .4;
     padding: .8rem 1.8rem;
@@ -488,7 +488,7 @@ body {
     background-position: center; 
   }
 
- /* From Uiverse.io by 3HugaDa3 */ 
+
 .cosmic-toggle {
     position: relative;
     width: 140px;
@@ -676,7 +676,7 @@ body {
     animation-delay: 1s;
   }
   
-  /* Анимации */
+  
   @keyframes ringPulse {
     0%,
     100% {
@@ -728,7 +728,7 @@ body {
     }
   }
   
-  /* Hover эффекты */
+ 
   .slider:hover .toggle-orb {
     filter: brightness(1.2);
     box-shadow:
@@ -750,12 +750,12 @@ body {
     }
   }
   
-  /* Активное состояние */
+
   .toggle:active + .slider .toggle-orb {
     transform: scale(0.95);
   }
   
-  /* 3D эффект при наведении */
+
   .cosmic-toggle:hover .slider {
     transform: rotateX(10deg) rotateY(10deg);
   }
@@ -764,7 +764,7 @@ body {
     transform: translateZ(10px);
   }
   
-  /* Тень */
+
   .toggle:checked + .slider::after {
     content: "";
     position: absolute;
@@ -788,8 +788,7 @@ body {
     }
   }
 
-  /* From Uiverse.io by rishichawda */ 
-/* The switch - the box around the slider */
+
 #theme-toggle-button {
   font-size: 17px;
   position: relative;
@@ -798,7 +797,7 @@ body {
   cursor: pointer;
 }
 
-/* Hide default HTML checkbox */
+
 #toggle {
   opacity: 0;
   width: 0;
@@ -817,17 +816,17 @@ body {
   transition-duration: 0.25s;
 }
 
-/* night sky background */
+
 #toggle:checked + svg #container {
   fill: #2b4360;
 }
 
-/* move button to right when checked */
+
 #toggle:checked + svg #button {
   transform: translate(28px, 2.333px);
 }
 
-/* show/hide sun and moon based on checkbox state */
+
 #sun {
   opacity: 1;
 }
@@ -844,7 +843,7 @@ body {
   opacity: 1;
 }
 
-/* show or hide background items on checkbox state */
+
 #cloud {
   opacity: 1;
 }
@@ -859,4 +858,35 @@ body {
 
 #toggle:checked + svg #stars {
   opacity: 1;
+}
+
+.header-bg {
+  background: linear-gradient(135deg, #007bff, #6c757d);
+  color: white;
+  padding: 40px 0;
+}
+.team-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.qr-code {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+footer {
+  background: #202020;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.img-1{
+  height: 220px;
+}
+
+.img-2{
+  width: 22%;
 }
